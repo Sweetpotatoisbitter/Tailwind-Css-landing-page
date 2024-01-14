@@ -5,11 +5,12 @@ module.exports = {
     screens:{
       sm: "480px",
       md: "780px",
+      
       lg:"980px",
       xl: "1440px"
-    }
-    extend: {
-      colors:{
+    },
+    extend:{
+      colors: {
         brightRed: 'hsl(12 ,88% ,59%)',
         brightRedLight: "hsl(12,88%,69%)",
         brightRedSupLight: "hsl(12,88%,95%)",
@@ -19,7 +20,7 @@ module.exports = {
         veryPaledRed: "hsl(13,100%,96%)",
         veryLightGray: "hsl(0,0%,98%)",
 
-      }
+      },
     },
   },
   plugins: [],
